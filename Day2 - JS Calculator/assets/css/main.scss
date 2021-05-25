@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  background: #f3f3f3;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .calc {
+    width: 380px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #171717;
+    border-radius: 10px;
+    box-shadow: 4px 12px 10px 8px rgba(0, 0, 0, 0.5);
+
+    &__display {
+      text-align: right;
+      min-height: 30px;
+      padding: 20px;
+      font-size: 24px;
+      background: #c4c4c4;
+      border: 2px solid gray;
+      border-radius: 10px;
+
+      .calc__display__shaddow {
+        height: 90%;
+        box-shadow: 0px 0px 4px 38px rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    &__actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 15px;
+
+      button {
+        width: 100px;
+        padding: 8px 10px;
+        margin: 2px;
+
+        &.equal {
+          background: yellow;
+          width: 223px;
+        }
+      }
+    }
+  }
+}

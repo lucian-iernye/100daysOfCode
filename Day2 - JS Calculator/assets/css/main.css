@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  background: #f3f3f3;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app .calc {
+  width: 380px;
+  height: 420px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #171717;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 12px 10px 8px rgba(0, 0, 0, 0.5);
+          box-shadow: 4px 12px 10px 8px rgba(0, 0, 0, 0.5);
+}
+
+.app .calc__display {
+  text-align: right;
+  min-height: 30px;
+  padding: 20px;
+  font-size: 24px;
+  background: #c4c4c4;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.app .calc__display .calc__display__shaddow {
+  height: 90%;
+  -webkit-box-shadow: 0px 0px 4px 38px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 4px 38px rgba(0, 0, 0, 0.2);
+}
+
+.app .calc__actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
+}
+
+.app .calc__actions button {
+  width: 100px;
+  padding: 8px 10px;
+  margin: 2px;
+}
+
+.app .calc__actions button.equal {
+  background: yellow;
+  width: 223px;
+}
+/*# sourceMappingURL=main.css.map */
